@@ -68,7 +68,7 @@ shinyUI(
                       a("https://github.com/c310j/Developing-Data-Products/ui.R")
              ),
              tabPanel("Special",
-                      a("https://github.com/c310j/Developing-Data-Products"),
+                      a("http://c310j.github.io/RegressionModelsCourse.html"),
                       hr(),
                       tags$iframe(src="part0_regmods-mtcars.html", 
                                   width="100%", height=600, frameborder=0, 
