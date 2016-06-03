@@ -65,7 +65,7 @@ shinyUI(
              ),
              tabPanel("SourceCode",
                       p("Source Code for Shiny application"),
-                      a("https://github.com/c310j/Developing-Data-Products")
+                      a("https://github.com/c310j/Developing-Data-Products/ui.R")
              ),
              tabPanel("Special",
                       a("https://github.com/c310j/Developing-Data-Products"),
