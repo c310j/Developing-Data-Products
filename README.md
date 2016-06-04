@@ -1,5 +1,35 @@
-#Practical Machine Learning Project - Quantified Self Data Analysis
-##Assignment
+#Coursera-Developing-Data-Products
+##Programming Assignments of Coursera.com online course: Developing Data Products
 
-Using devices such as Jawbone Up, Nike FuelBand, and Fitbit it is now possible to collect a large amount of data about personal activity relatively inexpensively. These type of devices are part of the quantified self movement – a group of enthusiasts who take measurements about themselves regularly to improve their health, to find patterns in their behavior, or because they are tech geeks. One thing that people regularly do is quantify how much of a particular activity they do, but they rarely quantify how well they do it. In this project, your goal will be to use data from accelerometers on the belt, forearm, arm, and dumbell of 6 participants. They were asked to perform barbell lifts correctly and incorrectly in 5 different ways. More information is available from the website here: http://groupware.les.inf.puc-rio.br/har (see the section on the Weight Lifting Exercise Dataset).
-The goal of your project is to predict the manner in which they did the exercise. This is the "classe" variable in the training set. You may use any of the other variables to predict with. You should create a report describing how you built your model, how you used cross validation, what you think the expected out of sample error is, and why you made the choices you did. You will also use your prediction model to predict 20 different test cases.
+###Your Shiny Application
+
+Write a shiny application with associated supporting documentation. The documentation should be thought of as whatever a user will need to get started using your application.
+Deploy the application on Rstudio's shiny server
+Share the application link by pasting it into the provided text box
+Share your server.R and ui.R code on github
+The application must include the following:
+
+-Some form of input (widget: textbox, radio button, checkbox, ...)
+-Some operation on the ui input in sever.R
+-Some reactive output displayed as a result of server calculations
+-You must also include enough documentation so that a novice user could use your application.
+-The documentation should be at the Shiny website itself. Do not post to an external link.
+
+The Shiny application in question is entirely up to you. However, if you're having trouble coming up with ideas, you could start from the simple prediction algorithm done in class and build a new algorithm on one of the R datasets packages. Please make the package simple for the end user, so that they don't need a lot of your prerequisite knowledge to evaluate your application. You should emphasize a simple project given the short time frame.
+
+###Your Reproducible Pitch Presentation
+
+OK, you've made your shiny app, now it's time to make your pitch. You get 5 slides (inclusive of the title slide) to pitch a your app. You're going to create a web page using Slidify or Rstudio Presenter with an html5 slide deck.
+
+Here's what you need
+
+-5 slides to pitch our idea done in Slidify or Rstudio Presenter
+-Your presentation pushed to github or Rpubs
+-A link to your github or Rpubs presentation pasted into the provided text box
+
+Your presentation must satisfy the following
+
+-It must be done in Slidify or Rstudio Presenter
+-It must be 5 pages
+-It must be hosted on github or Rpubs
+-It must contained some embedded R code that gets run when slidifying the document
